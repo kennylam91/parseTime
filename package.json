@@ -1,0 +1,23 @@
+{
+  "name": "parsetime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennylam91/parseTime.git"
+  },
+  "author": "lampv91",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennylam91/parseTime/issues"
+  },
+  "homepage": "https://github.com/kennylam91/parseTime#readme"
+}
