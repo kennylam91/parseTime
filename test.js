@@ -11,9 +11,9 @@ function parseTime(timeInput, format){
   const formatObj = {
     d: time.getDate().toString().padStart(2, 0),
     D: time.getDate().toString(),
-    m: time.getMonth().toString().padStart(2, 0),
-    M: time.getMonth().toString(),
-    g: time.getMonth().toString(),
+    m: (time.getMonth() + 1).toString().padStart(2, 0),
+    M: (time.getMonth() + 1).toString(),
+    g: (time.getMonth() + 1).toString(),
     y: (time.getFullYear() % 100).toString().padStart(2, 0),
     Y: time.getFullYear().toString(),
     H: time.getHours().toString().padStart(2, 0),
